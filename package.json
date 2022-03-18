@@ -1,0 +1,19 @@
+{
+ "name": "nodejs-proxy-counter",
+ "version": "1.0.0",
+ "main": "index.js",
+ "license": "MIT",
+ "dependencies": {
+  "express": "^4.17.1",
+  "http-proxy-middleware": "^1.0.5",
+  "morgan": "^1.10.0",
+  "sqlite3": "^5.0.2"
+ },
+ "scripts": {
+  "start": "nodemon index.js",
+  "sqlite:migrate": "node migrate.js"
+ },
+ "devDependencies": {
+  "nodemon": "^2.0.15"
+ }
+}
